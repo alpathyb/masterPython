@@ -1,0 +1,22 @@
+word_lists = [
+    "Kucing", "Anjing", "Rumah", "Mobil", "Sekolah",
+    "Pohon", "Buku", "Meja", "Kursi", "Lampu",
+    "Jendela", "Pintu", "Roti", "Susu", "Air",
+    "Kopi", "Teh", "Kertas", "Pensil", "Pensil",
+    "Gelas", "Sendok", "Garpu", "Pisau", "Mangga",
+    "Apel", "Pisang", "Jeruk", "Kelapa", "Nanas",
+    "Tomat", "Wortel", "Bayam", "Jagung", "Labu",
+    "Melon", "Mentimun", "Sayuran", "Buah", "Daging",
+    "Ayam", "Ikan", "Sapi", "Kambing", "Telur",
+    "Minyak", "Garam", "Gula", "Beras", "Tepung",
+    "Susu", "Roti", "Mentega", "Selai", "Marmalade",
+    "Keju", "Yogurt", "Eskrim", "Cokelat", "Karamel",
+    "Strawberry", "Vanila", "Anggur", "Ceri", "Persik",
+    "Pir", "Lebah", "Lalat", "Nyamuk", "Semut",
+    "Kupukupu", "Labalaba", "Cacing", "Ulat", "Belalang",
+    "Kumbang", "Kelelawar", "Tikus", "Kucing", "Anjing",
+    "Singa", "Harimau", "Macan", "Gajah", "Jerapah",
+    "Zebra", "Kuda", "Sapi", "Kambing", "Domba",
+    "Kelinci", "Tikus", "Tupai", "Orangutan", "Gorila",
+    "Monyet", "Kera", "Lumbalumba", "Paus", "Ikanpaus"
+]
