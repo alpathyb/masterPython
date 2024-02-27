@@ -1,3 +1,4 @@
+# this code is to count the total of can could coloring the wall
 import math
 
 
