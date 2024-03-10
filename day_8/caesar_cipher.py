@@ -35,5 +35,5 @@ while isContinue:
     if ask_continue == "yes":
         isContinue = True
     else:
-        print("You finish the cipher program")
+        print("You finish the cipher programl, Goodbye!")
         isContinue = False
