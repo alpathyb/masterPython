@@ -4,7 +4,7 @@ print(logo.logo)
 print("Welcome to the secret Auction Program.")
 
 bidders = {}  # to stores the bidders
-is_continue = True
+is_continue = True # add comment
 
 
 def clear():
