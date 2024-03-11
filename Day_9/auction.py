@@ -3,7 +3,7 @@ import logo
 print(logo.logo)
 print("Welcome to the secret Auction Program.")
 
-bidders = []  # to stores the bidders
+bidders = {}  # to stores the bidders
 is_continue = True
 
 
@@ -15,22 +15,17 @@ while is_continue:
     name = input("What is your name? : ")
     bid = int(input("What is your bid? : $"))
 
-    bidders.append(
-        {
-            name: bid
-        }
-    )
+    bidders[name] = bid
 
     ask_continue = input("Are there any other bidders? Type 'yes' or 'no'").lower()
     if ask_continue == "no":
-        max_bid = float('-inf')
+        max_bid = 0
         max_name = ""
         is_continue = False
-        for dictionary in bidders:
-            for name, bid in dictionary.items():
-                if bid > max_bid:
-                    max_bid = bid
-                    max_name = name
+        for name_bid, value in bidders.items():
+            if value > max_bid:
+                max_bid = value
+                max_name = name_bid
 
         print(f"the winner is {max_name} with ${max_bid} bid")
     else:
