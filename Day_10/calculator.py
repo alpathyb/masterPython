@@ -66,7 +66,7 @@ while start_calculator:
         answer = check_operation(answer_n1=answer)
         print(f"{temp2_answer} {operators_symbol} {num2} = {answer}")
 
-    continue_calculator = input(f"Do you want to user calculator? type y to continue use or type n to exit: ").lower()
+    continue_calculator = input(f"Do you want to use calculator? type y to continue use or type n to exit: ").lower()
     if continue_calculator == "n":
         print("Thank you for using this Calculator!")
         start_calculator = False
