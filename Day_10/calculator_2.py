@@ -1,7 +1,5 @@
 import logo
 
-print(logo.logo)
-
 
 def add(n1, n2):
     return n1 + n2
@@ -28,20 +26,32 @@ operations = {
 
 
 def calculator():
-    num1 = int(input("Input your first number please: "))
-    for symbols in operations:
-        print(symbols)
+    print(logo.logo)
+    while True:
+        try:
+            num1 = int(input("Input your first number please: "))
+            break  # break the loop if the conversion to integer successful
+        except ValueError:
+            print("Input number only!")
+
     is_continue = True
     operation_symbol = ''
     num2 = 0
 
     # Looping for check the operators
     while is_continue:
+        for symbols in operations:
+            print(symbols)
         check_operators = True
         while check_operators:
             operation_symbol = input("Pick one of the operators above: ")
             if operation_symbol in operations:
-                num2 = int(input("Input your second number please: "))
+                while True:
+                    try:
+                        num2 = int(input("Input your second number please: "))
+                        break  # break the loop
+                    except ValueError:
+                        print("Input number only!")
                 check_operators = False
             else:
                 print("Input again the operators!")
